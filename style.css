@@ -1,0 +1,39 @@
+.gameArea {
+  margin: 10px;
+  text-align: center;
+}
+
+#player1,
+#player2 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  font-size: 11em;
+}
+
+#output {
+  font-size: 40px;
+  border: 2px solid green;
+  max-width: 300px;
+  text-align: center;
+  padding: 2px;
+  margin: auto;
+}
+
+.btn {
+  text-align: center;
+}
+
+button {
+  font-size: 20px;
+  border: 2px solid blue;
+  background-color: orange;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
